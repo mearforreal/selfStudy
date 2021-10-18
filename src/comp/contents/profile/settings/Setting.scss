@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+$color1: #f4f4f4;
+$color2: #ff3366;
+.settings-content {
+  position: relative;
+  top: 200px;
+  min-height: 1400px;
+}
+.settings-inside {
+  position: relative;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.settings-main {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  label {
+    text-align: center;
+    grid-column: 1 / span 2;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .settings-account {
+    border: 1px solid #ebebeb;
+    border-radius: 15px;
+    grid-column: 1 / span 2;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+    top: 10px;
+    .settings-account-photo {
+      background-image: url(./img/ava.svg);
+      display: inline-block;
+      position: relative;
+      width: 63px;
+      height: 63px;
+      border-radius: 50%;
+    }
+    span:nth-child(2) {
+      position: relative;
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 21px;
+      margin-left: 18px;
+    }
+    span:last-child {
+      position: absolute;
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 20px;
+      right: 5%;
+      cursor: pointer;
+      color: #6c6c6c;
+    }
+  }
+  .settings-left-side {
+    grid-column: 1;
+    height: 660px;
+    position: relative;
+    top: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+
+    label:nth-child(1) {
+      position: relative;
+      top: 50px;
+    }
+    input:nth-child(2) {
+      position: relative;
+      display: block;
+      top: 65px;
+    }
+    label:nth-child(3) {
+      position: relative;
+      top: 100px;
+    }
+    input:nth-child(4) {
+      position: relative;
+      display: block;
+      top: 115px;
+    }
+    label:nth-child(5) {
+      position: relative;
+      top: 160px;
+    }
+    input:nth-child(6) {
+      position: relative;
+      display: block;
+      top: 175px;
+    }
+    label:nth-child(7) {
+      position: relative;
+      top: 220px;
+      width: 100px;
+    }
+    input:nth-child(8) {
+      position: relative;
+      top: 235px;
+    }
+    #setGender {
+      position: relative;
+      top: 270px;
+      left: 7%;
+      display: inline-block;
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+      input[type='radio'] {
+        width: 300px;
+        position: relative;
+        top: 260px;
+        display: none;
+        + label:before {
+          content: '';
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          padding: 3px;
+          position: relative;
+          margin-right: 8px;
+          top: 2px;
+          background-clip: content-box;
+          border: 1px solid #bbbbbb;
+          background-color: #ffffff;
+          border-radius: 50%;
+        }
+        &:checked + label:before {
+          background-color: #ff3366;
+          border: 1px solid #ff3366;
+        }
+        label {
+          display: inline-flex;
+          align-items: center;
+        }
+      }
+      input {
+        position: relative;
+        left: 0%;
+      }
+
+      label {
+        display: inline-block;
+        position: relative;
+        margin-right: 30px;
+        left: 5%;
+      }
+    }
+  }
+
+  .settings-right-side {
+    grid-column: 2;
+    grid-row: 3;
+    height: 500px;
+    position: relative;
+    top: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+    label:nth-child(1) {
+      position: relative;
+      top: 50px;
+    }
+    input:nth-child(2) {
+      position: relative;
+      display: block;
+      top: 65px;
+    }
+    label:nth-child(4) {
+      position: relative;
+      top: 80px;
+    }
+    input:nth-child(5) {
+      position: relative;
+      display: block;
+      top: 95px;
+    }
+    label:nth-child(7) {
+      position: relative;
+      top: 120px;
+    }
+    input:nth-child(8) {
+      position: relative;
+      display: block;
+      top: 135px;
+    }
+    div {
+      position: relative;
+      width: 23px;
+      height: 18px;
+      left: 75%;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer;
+    }
+    .eye {
+      top: 35px;
+    }
+    .eye.open {
+      background-image: url('./img/eye.svg');
+    }
+    .eye.close {
+      background-image: url('./img/eye_close.svg');
+      width: 23px;
+      height: 18px;
+    }
+    div:nth-child(6) {
+      top: 65px;
+    }
+    div:nth-child(9) {
+      top: 105px;
+    }
+    a {
+      position: relative;
+      top: 145px;
+      left: 13%;
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #484848;
+      cursor: pointer;
+    }
+  }
+  .settings-left-side,
+  .settings-right-side {
+    label {
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      left: 11%;
+    }
+    input {
+      position: relative;
+      width: 70%;
+      outline: 0;
+      border: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #6c6c6c;
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 20px;
+      left: 5%;
+    }
+  }
+  .settings-button {
+    background-color: #20a4f3;
+    position: relative;
+    left: 52%;
+    top: 60px;
+    height: 76px;
+    border-radius: 216px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    span {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 150%;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      color: #ffffff;
+    }
+  }
+}

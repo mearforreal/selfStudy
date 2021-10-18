@@ -1,0 +1,130 @@
+#completed_content {
+  position: relative;
+  top: 200px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  min-height: 1050px;
+  position: relative;
+}
+#mycourses_btn:active,
+#mycourses_btn:focus,
+#mycourses_completed_btn:active,
+#mycourses_completed_btn:focus,
+#mycourses_settings_btn:active,
+#mycourses_settings_btn:focus {
+  background-color: #ff3366;
+  .text {
+    color: white;
+  }
+}
+.completed_main {
+  position: relative;
+  padding: 0 10%;
+  height: auto;
+  display: grid;
+  grid-gap: 20px;
+  label {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: center;
+  }
+}
+.completed_list {
+  width: 592px;
+  height: 150px;
+  left: 198px;
+  top: 343px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+.completed_list:hover {
+  cursor: pointer;
+  background-color: #fcfcfc;
+}
+.completed_list_left {
+  p {
+    position: relative;
+    left: 12%;
+    top: 38px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #be33ff;
+  }
+  span {
+    position: relative;
+    top: 47px;
+    left: 12%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+  }
+}
+.completed_list_right {
+  border-left: 1px solid #ebebeb;
+  p {
+    position: relative;
+    top: 50px;
+    left: 12%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #011627;
+  }
+  span {
+    position: relative;
+    top: 60px;
+    left: 12%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+  }
+}
+#completed_add_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 319px;
+  height: 75px;
+  left: 42%;
+  top: 50px;
+  background: #20a4f3;
+  border-radius: 216px;
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 100%;
+  }
+}

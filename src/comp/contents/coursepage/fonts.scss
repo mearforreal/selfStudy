@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#course-wrapper-left {
+  p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    font-size: 36px;
+  }
+  #first {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+  }
+}
+#course-wrapper-button {
+  span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+#course-when,
+#course-format,
+#course-sertificate {
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+  }
+  .inner {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+  }
+}
+#course-info {
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  #info-content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+  }
+}
+#course-count,
+#course-salary {
+  p {
+    position: relative;
+    top: 45px;
+    margin-left: 70px;
+    width: 350px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  span {
+    position: relative;
+    top: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 140%;
+    color: #ff3366;
+  }
+}
+#course-section2 {
+  label {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  #course-block1,
+  #course-block2,
+  #course-block3,
+  #course-block4 {
+    p {
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .text {
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  }
+}
+.course-adobe-list-item {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+}
+.course-section3-title-initial {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+}
+#course-adobe-show {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+.course-adobe-additional {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+}
+#course-section3,
+#course-section4 {
+  label {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+}
+#course-teacher-data {
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+  }
+  #subtext {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .course-teacher-data-list {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+  }
+}
+#course-section5 {
+  label {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    text-transform: uppercase;
+  }
+}
+.course-option-content {
+  .optiontext {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+.top {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 140%;
+
+  color: #ff3366;
+}
+.course-option-title {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+#course-cost-left-title {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+#course-cost-left-sub {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 140%;
+}
+.course-cost-left-step {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+.course-cost-left-step-info {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+}
+#course-cost-right-title {
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+  }
+  span {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+  }
+}
+#payment {
+  input {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+  }
+  #payment-button {
+    span {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+  a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+@media only screen and (min-width: 475px) and (max-width: 850px) {
+  #course-wrapper-left {
+    p {
+      font-size: 24px;
+    }
+    #first {
+      font-size: 16px;
+    }
+  }
+
+  #course-when,
+  #course-format,
+  #course-sertificate {
+    font-size: 18px;
+    display: block;
+    p {
+      position: relative;
+      bottom: 20px;
+    }
+    .inner {
+      position: relative;
+      font-size: 18px;
+      bottom: 30px;
+      top: 0;
+    }
+  }
+  #course-wrapper-button {
+    position: absolute;
+    top: 700px;
+    span {
+      font-size: 16px;
+    }
+  }
+  #course-info {
+    p {
+      font-size: 20px;
+    }
+  }
+  #payment {
+    #payment-button {
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  #course-count,
+  #course-salary {
+    text-align: center;
+    padding-top: 30px;
+    p {
+      font-size: 20px;
+      width: 60%;
+      top: 15px;
+      left: 5%;
+    }
+    span {
+      font-size: 36px;
+      top: 20px;
+    }
+  }
+  #course-section2 {
+    label {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    #course-block1,
+    #course-block2,
+    #course-block3,
+    #course-block4 {
+      p {
+        font-size: 18px;
+        line-height: 21px;
+      }
+      .text {
+        font-size: 16px;
+        line-height: 140%;
+      }
+    }
+  }
+  #course-section3,
+  #course-section4 {
+    label {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .course-section3-title-initial {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .course-adobe-additional {
+    font-size: 14px;
+  }
+  #course-adobe-show {
+    font-size: 17px;
+  }
+  #course-teacher-data {
+    p {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    #subtext {
+      font-size: 16px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  #course-section5 {
+    label {
+      font-size: 20px;
+    }
+  }
+  .top {
+    font-size: 48px;
+  }
+  .course-option-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .course-option-content {
+    .optiontext {
+      font-size: 14px;
+    }
+  }
+  #course-cost-left-title {
+    font-size: 20px;
+  }
+  #course-cost-left-sub {
+    font-size: 24px;
+  }
+  #course-cost-left-step {
+    font-size: 18px;
+  }
+  #course-cost-left-step-info {
+    font-size: 16px;
+  }
+  #course-cost-right-title {
+    p {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    span {
+      font-size: 48px;
+      line-height: 57px;
+    }
+  }
+}
